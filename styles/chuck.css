@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(49, 49, 49);
+}
+
+.contenedor {
+    margin: auto;
+    width: 100%;
+}
+
+.buscador {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.contenidoDiv  {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#btn, #btn2 {
+    position: relative;
+    left: 50%;
+    margin-top: 2vh;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: rgb(0, 47, 88);
+    font-size: large;
+}
+
+.contenidoDiv h2 {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+}
+
